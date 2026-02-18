@@ -1,0 +1,7 @@
+name: Hello World Pipeline  # The name of your pipeline
+
+on: [push]  # TRIGGER: Run this every time code is pushed to the repo
+
+jobs:
+  say-hello:                # A "Job" is a set of steps
+    runs-on: ubuntu-latest  # Use a fresh Linux server hosted by 
